@@ -58,17 +58,20 @@
                 <img src="resources/cable.png" alt="articulo" class="cable__imagen">
                 <div class="producto__articulo">
                     <p>
-                        Cable de Alimentación Reforzado, Apto para Computadoras o Monitores.
+                        Cable de Alimentación Reforzado, Apto para Computadoras o Monitores.<br>$149
                     </p>
-                    <form class="">
-                        <select class="">
+
+                    <form id="add-to-cart" class="">
+                        <select id="form-variant" class="">
                             <option disabled selected>--Seleccionar Tamaño--</option>
                             <option>1 Metro</option>
                             <option>3 Metros</option>
                             <option>5 Metros</option>
                         </select>
-                        <input class="" type="number" placeholder="Cantidad" min="1">
+                        <input id="form-quantity" class="" type="number" placeholder="Cantidad" min="1">
                         <input class="" type="submit" value="Agregar al carrito">
+                        <input id="form-product" type="text" value="Cable de alimentación" data-price="149"
+                               hidden="hidden">
                     </form>
                 </div>
             </div>
@@ -80,4 +83,5 @@
             <p>todos los derechos reservados. Elias Fregoso DEV</p>
         </footer>
     </body>
+    <script src="./JS/recipt.js"></script>
 </html>

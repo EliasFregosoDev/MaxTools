@@ -58,17 +58,18 @@
                 <img src="resources/control.png" alt="articulo" class="cable__imagen">
                 <div class="producto__articulo">
                     <p>
-                        Control Remoto Universal. <br> Facil de Configurar.<br> Resistente y Duradero.
+                        Control Remoto Universal. <br> Facil de Configurar.<br> Resistente y Duradero. <br>$289
                     </p>
-                    <form>
-                        <select>
+                    <form id="add-to-cart">
+                        <select id="form-variant">
                             <option disabled selected>--Seleccionar Tipo--</option>
                             <option>Televisión</option>
                             <option>FireStick Amazon</option>
                             <option>Roku TV</option>
                         </select>
-                        <input type="number" placeholder="Cantidad" min="1">
+                        <input id="form-quantity" type="number" placeholder="Cantidad" min="1">
                         <input type="submit" value="Agregar al carrito">
+                        <input id="form-product" type="text" value="Control-Remoto" data-price="289" hidden="hidden">
                     </form>
                 </div>
             </div>
@@ -80,4 +81,5 @@
             <p>todos los derechos reservados. Elias Fregoso DEV</p>
         </footer>
     </body>
+    <script src="./JS/recipt.js"></script>
 </html>

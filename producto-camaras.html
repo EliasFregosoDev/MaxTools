@@ -59,16 +59,15 @@
                 <div class="producto__articulo">
                     <p>
                         Resolución FULL HD Con Visión Nocturna Clara Para Viiglancia 24/7.<br>Para Uso en Interiores o
-                        Exteriores. <br>Sistema Autoinstalable con Grabación Continua y Acceso Desde el Celular.
+                        Exteriores. <br>Sistema Autoinstalable con Grabación Continua y Acceso Desde el Celular. <br>$4999
                     </p>
-                    <form>
-                        <select>
+                    <form id="add-to-cart">
+                        <select id="form-variant">
                             <option disabled selected>--Selecciona KIT--</option>
-                            <option>3 Cámaras</option>
                             <option>6 Cámaras</option>
-                            <option>10 Cámaras</option>
                         </select>
                         <input type="submit" value="Agregar al carrito">
+                        <input id="form-product" type="text" value="kit-camaras" data-price="4999" hidden="hidden">
                     </form>
                 </div>
             </div>
@@ -80,4 +79,5 @@
             <p>todos los derechos reservados. Elias Fregoso DEV</p>
         </footer>
     </body>
+    <script src="./JS/recipt.js"></script>
 </html>

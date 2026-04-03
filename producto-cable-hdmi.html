@@ -60,15 +60,17 @@
                     <p>
                         Cable HMDI Reforzado, Apto Resoluciones FULL HD, 4K, y Hasta 8K.
                     </p>
-                    <form>
-                        <select>
+                    <p>$199</p>
+                    <form id="add-to-cart">
+                        <select id="form-variant">
                             <option disabled selected>--Seleccionar Tamaño--</option>
                             <option>1 Metro</option>
                             <option>3 Metros</option>
                             <option>5 Metros</option>
                         </select>
-                        <input type="number" placeholder="Cantidad" min="1">
+                        <input id="form-quantity" type="number" placeholder="Cantidad" min="1">
                         <input type="submit" value="Agregar al carrito">
+                        <input id="form-product" type="text" value="cable-HDMI" data-price="199" hidden="hidden">
                     </form>
                 </div>
             </div>
@@ -80,4 +82,5 @@
             <p>todos los derechos reservados. Elias Fregoso DEV</p>
         </footer>
     </body>
+    <script src="./JS/recipt.js"></script>
 </html>

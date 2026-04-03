@@ -59,12 +59,14 @@
                 <div class="producto__articulo">
                     <p>
                         Brazo de Movimiento Para Ajustar el Ángulo de Visión. <br>Estructura de Acero Reforzado, Soporta
-                        Pantallas de Gran Tamaño. <br>Sistema de Gestón de Cables Para Mantener Todo Ordenado.
+                        Pantallas de Gran Tamaño. <br>Sistema de Gestón de Cables Para Mantener Todo Ordenado. <br>$549
                     </p>
-                    <form>
+                    <form id="add-to-cart">
 
-                        <input type="number" placeholder="Cantidad" min="1">
+                        <input id="form-quantity" type="number" placeholder="Cantidad" min="1">
                         <input type="submit" value="Agregar al carrito">
+                        <input id="form-product" type="text" value="Soporte de television" data-price="549"
+                               hidden="hidden">
                     </form>
                 </div>
             </div>
@@ -76,4 +78,5 @@
             <p>todos los derechos reservados. Elias Fregoso DEV</p>
         </footer>
     </body>
+    <script src="./JS/recipt.js"></script>
 </html>
